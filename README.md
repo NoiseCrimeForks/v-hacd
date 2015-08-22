@@ -15,3 +15,6 @@ Collision detection is essential for realistic physical interactions in video ga
 
 
 A second approach consists in computing an exact convex decomposition of a surface S, which consists in partitioning it into a minimal set of convex sub-surfaces. Exact convex decomposition algorithms are NP-hard and non-practical since they produce a high number of clusters. To overcome these limitations, the exact convexity constraint is relaxed and an approximate convex decomposition of S is instead computed. Here, the goal is to determine a partition of the mesh triangles with a minimal number of clusters, while ensuring that each cluster has a concavity lower than a user defined threshold.
+
+
+Blender suport - see - http://www.bulletphysics.org/Bullet/phpBB3/viewtopic.php?f=4&t=6619&start=30
